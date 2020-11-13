@@ -1,0 +1,127 @@
+.a1{
+	background: #C9F2C7;
+	box-shadow: 2px 2px 10px rgba(0,0,0,1);
+	display: block;
+	width: 180px;
+	height: 30px;
+	transition: .3s;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 20px;
+}
+.a1:hover{
+	width: 200px;
+	height: 40px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,2);
+}
+.a1:after{
+	content: "\2019";
+}
+.a1:before{
+	content: "\2018";
+}
+
+.a2{
+	margin: 20px;
+	background: linear-gradient(to left, #E0FFFF, #66CDAA);
+	box-shadow: 2px 2px 10px rgba(0,0,0,1);
+	display: block;
+	width: 180px;
+	height: 30px;
+	transition: .3s;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.a2:hover{
+	background: linear-gradient(to left, #66CDAA, #E0FFFF);
+	width: 200px;
+	height: 40px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,2);
+}
+.a2:after{
+	content: "\201A";
+}
+.a2:before{
+	content: "\201A";
+}
+
+.a3{
+	margin: 20px;
+	background: #4B0082;
+	box-shadow: 2px 2px 10px rgba(0,0,0,1);
+	display: inline-block;
+	border-radius: 10px;
+	color: white;
+	width: 180px;
+	height: 30px;
+	transition: .3s;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.a3:hover{
+	background: linear-gradient(to left, #4B0082, #E0FFFF);
+	width: 200px;
+	height: 40px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,2);
+}
+.a3:after{
+	content: "\201D";
+}
+.a3:before{
+	content: "\201C";
+}
+
+.a4{
+	margin: 20px;
+	background: #9370DB;
+	box-shadow: 5px 5px 0px rgba(255,0,255,15);
+	display: block;
+	width: 180px;
+	height: 30px;
+	transition: .3s;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.a4:hover{
+	background: #9370DB;
+	width: 200px;
+	height: 40px;
+	box-shadow: 10px 10px 0px rgba(255,0,255,20);
+}
+.a4:after{
+	content: "\201E";
+}
+.a4:before{
+	content: "\201E";
+}
+
+.a5{
+	margin: 50px;
+	background: #00BFFF;
+	box-shadow: 2px 2px 10px rgba(0,0,0,1);
+	display: block;
+	width: 180px;
+	height: 30px;
+	transition: .3s;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transform: rotate(24deg);
+}
+.a5:hover{
+	transform: rotate(-24deg);
+	background: #00BFFF;
+	width: 200px;
+	height: 40px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,2);
+}
+.a5:after{
+	content: "\00BB";
+}
+.a5:before{
+	content: "\00AB";
+}

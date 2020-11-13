@@ -1,0 +1,58 @@
+.h0{}
+h1{
+	font-size: 250%;
+	display: block;
+	width: 300px;
+	height: 50px;
+	background-image: linear-gradient( to right, #ADFF2F, #20B2AA);
+	border-radius: 30px;
+	padding: 12px 40px;
+}
+h2{
+	color: #9ACD32;
+	font-size: 150%;
+	font-style: italic;
+	box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+	border: 1px solid rgba(255,255,255,.4);
+	display: inline-block;
+	margin: 0px 0px 0px 2350px;
+}
+h3{
+	display: block;
+	width: 200px;
+	height: 30px;
+	border-radius: 30px;
+	padding: 12px 40px;
+	margin: 0px 0px 0px 1050px;
+	border-bottom: 2px solid red;
+	text-align: center;
+}
+.a{
+	box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+	display: inline-block;
+	padding: 12px 40px;
+	margin: 50px 150px;
+	border-radius: 30px;
+	background-image: linear-gradient(to left,#e66465, #9198e5);
+	 border: 1px solid rgba(255,255,255,.4);
+	 font-weight: 900;
+	 color: white;
+}
+.win{
+	width: 300px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+	padding: 12px 160px;
+	margin: 50px 150px;
+	border-radius: 160px;
+	background-image: linear-gradient(to left,#e66465, #9198e5);
+	border: 1px solid rgba(255,255,255,.4);
+	font-weight: 900;
+	color: white;
+	z-index: 999;
+	display: none;
+}
+.win1{display: none;}
+.win2{display: inline-block;}

@@ -1,0 +1,54 @@
+.scr{
+	box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+	display: inline-block;
+	padding: 12px 40px;
+	margin: -10px 150px;
+	border-radius: 30px;
+	 border: 1px solid rgba(255,255,255,.4);
+	 font-weight: 900;
+	 color: white;
+	height: 100px;
+	width: 100px;
+}
+.em1{
+	background: url(img/em1.jpg) no-repeat;
+	background-size: 100px 100px;
+	display: block;
+	height: 100px;
+	width: 100px;
+}
+.em1:hover{
+	background: url(img/em1h.jpg) no-repeat;
+	background-size: 100px 100px;
+	display: block;
+	height: 100px;
+	width: 100px;
+}
+.em2{
+	background: url(img/em2.jpg) no-repeat;
+	background-size: 100px 150px;
+	display: block;
+	height: 150px;
+	width: 100px;
+}
+.em2:hover{
+	background: url(img/em2h.jpg) no-repeat;
+	background-size: 100px 150px;
+	display: block;
+	height: 150px;
+	width: 100px;
+}
+.em3{
+	background: url(img/em3.jpg) no-repeat;
+	background-size: 100px 110px;
+	display: block;
+	height: 110px;
+	width: 100px;
+}
+.em3:hover{
+	background: url(img/em3h.jpg) no-repeat;
+	background-size: 100px 110px;
+	display: block;
+	height: 110px;
+	width: 100px;
+}

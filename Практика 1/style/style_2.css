@@ -1,0 +1,87 @@
+.a{
+	box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+	display: inline-block;
+	padding: 12px 40px;
+	margin: 50px 150px;
+	border-radius: 30px;
+	background-image: linear-gradient(to left,#e66465, #9198e5);
+	 border: 1px solid rgba(255,255,255,.4);
+	 font-weight: 900;
+	 color: white;
+}
+.a2{
+	box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+	display: inline-block;
+	padding: 12px 40px;
+	margin: -10px 150px;
+	border-radius: 30px;
+	background-image: linear-gradient(to left,#e66465, #9198e5);
+	 border: 1px solid rgba(255,255,255,.4);
+	 font-weight: 900;
+	 color: white;
+}
+.win{
+	width: 300px;
+	height: 650px;
+	position: absolute;
+	top: 0;
+	box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+	padding: 12px 160px;
+	margin: 50px 150px;
+	border-radius: 160px;
+	background-image: linear-gradient(to left,#e66465, #9198e5);
+	border: 1px solid rgba(255,255,255,.4);
+	font-weight: 900;
+	color: white;
+	z-index: 999;
+	display: none;
+}
+.win1{display: none;}
+.win2{display: inline-block;}
+.pr12main{
+	display: block;
+	background-color: white;
+	margin: 50px 300px;
+	height: 1500px;
+	weight: 1000px;
+	border-radius: 160px;
+}
+video{
+	box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+	display: inline-block;
+	padding: 12px 40px;
+	margin: 50px 150px;
+	border-radius: 30px;
+	background-image: linear-gradient(to left,#e66465, #9198e5);
+	 border: 1px solid rgba(255,255,255,.4);
+	 font-weight: 900;
+	 color: white;
+}
+audio{
+	box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+	display: inline-block;
+	padding: 12px 40px;
+	margin: 50px 150px;
+	border-radius: 30px;
+	background-image: linear-gradient(to left,#e66465, #9198e5);
+	 border: 1px solid rgba(255,255,255,.4);
+	 font-weight: 900;
+	 color: white;
+}
+.text1{
+	box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+	display: inline-block;
+	padding: 12px 40px;
+	margin: 50px 150px;
+	border-radius: 30px;
+	background-image: linear-gradient(to left,#e66465, #9198e5);
+	 border: 1px solid rgba(255,255,255,.4);
+	 font-weight: 900;
+	 color: white;
+}
+.h{
+margin 0px;
+ width: 100%;
+ background: black;
+ height: 70px;
+}

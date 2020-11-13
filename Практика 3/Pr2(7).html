@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<thml>
+	<head>
+		<title>
+		Какой-то сайт
+		</title>
+		<style>
+		.a{margin-left: 20px;}
+		input:valid + span:after {
+		color: green;
+		content: '\2714'; 
+		}
+		input:invalid + span:after {
+		color: red;
+		content: '\2718';
+		padding-left: 5px;
+		}
+		</style>
+	<body>
+	<form>
+	<p class="a">Имя пользователя<input type="text" name="name" pattern="^[А-Яа-яЁё\s]+$" required /><span style="margin-left: -320px;"></span></p>
+	<p class="a">Сколько вам лет? <input type="text" name="age" pattern="[0-9]{1,3}" required /><span style="margin-left: -320px;"></span></p>
+	<p class="a">Вы учитесь или работаете? <input type="text" name="work" pattern="^[А-Яа-яЁё]+$" required /><span style="margin-left: -390px;"></span></p>
+	<p class="a">Сколько у вас свободного времени?<input type="text" name="time" pattern="[0-9]{0,2}" required /><span style="margin-left: -440px;"></span></p>
+	<p class="a">Что вы обычно делаете в свободное время?<input type="text" name="free" pattern="^[А-Яа-яЁё\s]+$"  /><span style="margin-left: -490px;"></span></p>
+	<div><button type="submit">Отправить</button></div>
+	</form>
+	</body>
+</html>
