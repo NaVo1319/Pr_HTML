@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<thml>
+	<head>
+		<title>
+		Pr1-4
+        </title>
+        <meta charset="utf-8">
+        <script src="script/script.js"></script>
+    </head>
+    <body >
+        <p><button onmouseover="N1_1()">Задание 1.1</button></p>
+
+        <p><button ondblclick="N1_2()">Задание 1.2</button></p>
+
+        <p><div style="display: inline;" id="2_1">Кнопка справа</div><button onclick="N2_1()">Задание 2.1</button></p>
+
+        <p><img height="100px" width="150px" src="Resurses/Ga1.jpg" id="2_2"/><button onclick="N2_2()">Задание 2.2</button></p>
+        
+        <p><div onclick="N3_1(this)" style="display: inline-block;" id="3_1">Задание 3_1: Кнопка справа нет</div></p>
+        <p><button id="b1" onclick="N3_2(this)">Задание 3.2 b1</button>
+        <button id="b2" onclick="N3_2(this)">Задание 3.2 b2</button></p>
+
+        <button value=0 onclick="N3_3(this)">Задание 3.3 </button></p>
+
+        <button onclick="N4_1()">Задание 4.1 </button></p>
+        <div id="4_1" style="width: 100px; height: 100px">Всё хорошо</div>
+    
+        <button id="b1" onclick="N4_2(this)">Задание 4.2 Скрыть</button></p>
+        <div id="4_2" style="display: block; background-color: black; color: white; padding: 10px; margin: 10px; width: 100px;">
+            <p>Совы ночью лишь опасны,</p>
+            <p>Днем — сонливы, безучастны,</p>
+            <p>И тихонечко сидят,</p>
+            <p>На добычу не глядят.</p>
+        </div>
+        <button id="b2" onclick="N4_2(this)">Задание 4.2 Вернуть</button></p>
+    
+        <p id="5.1">Да </p><button onclick="N5_1(5.1)">Задание 5.1</button>
+    
+        <p><input id="1" type="number"/>+<input id="2" type="number">=<span id="result">0</span>
+        <button onclick="N5_2()">Задание 5.2: Нажмите чтобы сложить</button></p>
+
+        <p>Задание 5.3 <input type="text" oninput="N5_3(this)"/><span id="5.3"></span></p>
+
+        <p><a name="_a" href="http://google.ru">ссылка 1</a></p>
+        <p><a name="_a" href="http://tut.by">ссылка 2</a></p>
+        <p><a name="_a" href="http://yandex.ru">ссылка 3</a></p>
+        <p><button onclick="N5_4()">Задание 5.4 Нажми на маня!</button></p>
+
+        <p >Да</p>
+        <p>Нет</p>
+        <p>Возможно</p>
+        <p><button onclick="N6_1()">Задание 6.1</button></p>
+
+        <p>Абзац с текстом</p>
+        <p>Абзац с текстом</p>
+        <p>Абзац с текстом</p>
+        <p>Абзац с текстом</p>
+        <p>Абзац с текстом</p>
+        <p><button onclick="N6_2()">Задание 6.2</button></p>
+
+        <p><span id="timer">0</span></p>
+        <p><button onclick="N7_1()">Задание 7.1</button></p>
+
+        <p>Задание 7.2</p>
+        <p><span id="timer2">0</span></p>
+        <p>
+            <button onclick="N7_2()">Запуск</button>
+            <button onclick="stop()">Стоп</button>
+        </p>
+
+        <p>Задание 7.3</p>
+        <p><span id="clock">0</span></p>
+        <p><button onclick="N7_3()">Запуск</button></p>
+
+        <p>Задание 7.4</p>
+        <p><img width="1000" height="800" id="img" src="Resurses/Ga1.jpg"/></p>
+        <p><button onclick="N7_4()">Запуск</button></p> 
+
+        <p>Задание 7.5</p>
+        <p><img width="100" height="80" id="img1" src="Resurses/Ga1.jpg"/><img width="100" height="80" id="img2" src="Resurses/Ga2.jpg"/><img width="100" height="80" id="img3" src="Resurses/Ga3.jpg"/><img width="100" height="80" id="img4" src="Resurses/Ga4.jpg"/></p>
+        <p><button onclick="N7_5()" id="go">Запуск</button><button onclick="stop2()" id="stop">Стоп</button></p> 
+    
+        <p>Задание 7.6</p>
+        <button onclick="go()">Запуск</button>
+        <div id="wrapper">
+            <p>
+                До полуночи осталось:
+            </p>
+            <table>
+                <tr>
+                    <th>Часы</th>
+                    <th>Минуты</th>
+                    <th>Секунды</th>
+                </tr>
+                <tr>
+                    <td id="hours">0</td>
+                    <td id="minutes">0</td>
+                    <td id="seconds">0</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
