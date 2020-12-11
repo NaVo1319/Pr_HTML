@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<thml>
+	<head>
+		<title>
+		Pr1-4
+        </title>
+        <meta charset="utf-8">
+        <script src="script/script13-15.js"></script>
+        <style>
+            .tooltip {
+              position: fixed;
+              padding: 10px 20px;
+              border: 1px solid #b3c9ce;
+              border-radius: 4px;
+              text-align: center;
+              font: italic 14px/1.3 sans-serif;
+              color: #333;
+              background: #fff;
+              box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+            }
+            .p{
+                display: block;
+                background-color: rgb(150, 124, 91);
+                margin-top: 100px;
+                color: white;
+                padding: 10px;
+            }
+            .img_{
+                border: 1px solid black;
+            }
+            .img{
+                margin: auto; 
+                padding: 10px; 
+                margin: 10px; 
+                border: 1px solid black;
+                width: 100px;
+                height: 100px;
+            }
+          </style>
+    </head>
+    <body >
+        <p>Задание №13</p>
+        <button class="p" data-tooltip="Скороговорка">Тёмной ночью выдры в гетрах тырят в тундре ядры кедров</button>
+        <br/>
+        <p>Задание №14</p>
+        <fieldset id="contents">
+            <legend>#contents</legend>
+            <p>
+                <a href="https://warhammerfantasy.fandom.com">
+                    Зелёный Рыцарь</a> — хорошо известный герой бретоннского фольклора, истории и поэмы о котором одни из самых популярных в 
+                    <a href="https://warhammerfantasy.fandom.com">Бретоннии</a>
+            </p>
+          </fieldset>
+          <script>
+            contents.onclick = function(event) {
+        
+              function handleLink(href) {
+                let isLeaving = confirm(`Перейти по ${href}?`);
+                if (!isLeaving) return false;
+              }
+        
+              let target = event.target.closest('a');
+        
+              if (target && contents.contains(target)) {
+                return handleLink(target.getAttribute('href'));
+              }
+            };
+          </script>
+          <p>Задание №15</p>
+
+          <p><img id="img" style="margin: auto; padding: 10px; margin: 10px; border: 1px solid black;" width="500px" height="500px" src="Resurses/Ga1.jpg"/></p>
+              <img id=1 class="img" src="Resurses/Ga1.jpg"/>
+              <img id=2 class="img" src="Resurses/Ga2.jpg"/>
+              <img id=3 class="img" src="Resurses/Ga3.jpg"/>
+              <img id=4 class="img" src="Resurses/Ga4.jpg"/>
+    </body>
+</html>
