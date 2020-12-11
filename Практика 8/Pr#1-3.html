@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<thml>
+	<head>
+		<title>
+		Pr1-3
+        </title>
+        <meta charset="utf-8">
+        <script src="script1-3.js"></script>
+        <style>
+            .n1{
+                position: relative; 
+                left: 0;
+            }
+            textarea {
+                display: block;
+                border: 1px solid #BBB;
+                color: #444;
+                font-size: 110%;
+            }
+            #field {
+                height: 200px;
+                border-bottom: 3px black groove;
+                position: relative;
+            }
+
+            #ball {
+                position: absolute;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body >
+        <img class="n1" id="N1" src="Resurses/1.jpg">
+
+
+        <textarea id="textExample" rows="9" cols="60">
+            За синее горы, за белый туман
+            В пещеры и норы уйдет караван;
+            За быстрые воды уйдем до восхода
+            За кладом старинным из сказачных стран.
+
+            Волшебники- гномы! В минувшие дни
+            Искусно металлы ковали они;
+            Сапфиры, алмазы, рубины, топазы
+            Хранили они и гранили они. 
+        </textarea>
+        <button onclick="animateText(textExample)">Запустить анимацию набора текста!</button>
+        
+        
+  <div id="field">
+    <img src="Resurses/3.png" width="40" height="40" id="ball">
+  </div>
+
+  <script>
+    function makeEaseOut(timing) {
+      return function(timeFraction) {
+        return 1 - timing(1 - timeFraction);
+      }
+    }
+
+    function bounce(timeFraction) {
+      for (let a = 0, b = 1, result; 1; a += b, b /= 2) {
+        if (timeFraction >= (7 - 4 * a) / 11) {
+          return -Math.pow((11 - 6 * a - 11 * timeFraction) / 4, 2) + Math.pow(b, 2)
+        }
+      }
+    }
+
+    function quad(timeFraction) {
+      return Math.pow(timeFraction, 2);
+    }
+
+    ball.onclick = function() {
+
+      let height = field.clientHeight - ball.clientHeight;
+      let width = 100;
+
+      animate({
+        duration: 2000,
+        timing: makeEaseOut(bounce),
+        draw: function(progress) {
+          ball.style.top = height * progress + 'px'
+        }
+      });
+
+      animate({
+        duration: 2000,
+        timing: makeEaseOut(quad),
+        draw: function(progress) {
+          ball.style.left = width * progress + "px"
+        }
+      });
+    }
+  </script>
+    </body>
+</html>
